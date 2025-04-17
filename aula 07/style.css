@@ -39,3 +39,10 @@ nav ul li a:hover {
     color: #ffd700;
     font-weight: bold;
 }
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
